@@ -55,11 +55,12 @@ cp manifest-firefox.json manifest.json
 ## Demo
 
 <p align="center">
+  <img src="assets/settings.png" alt="Settings" width="250" height="400">
   <img src="assets/snappyhome.png" alt="Snappy Home" width="250" height="400">
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="assets/sessions.png" alt="Sessions" width="250" height="400">
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets/settings.png" alt="Settings" width="250" height="400">
+
 </p>
 
 ## License
