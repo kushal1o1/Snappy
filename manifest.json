@@ -1,0 +1,44 @@
+{
+  "manifest_version": 2,
+  "name": "Snappy",
+  "version": "1.0.0",
+  "description": "Capture and restore tab snapshots",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "snappy@kushal1o1.github.io",
+      "strict_min_version": "140.0",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    },
+    "gecko_android": {
+      "strict_min_version": "142.0"
+    }
+  },
+  "sidebar_action": {
+    "default_title": "Snappy",
+    "default_panel": "sidepanel.html",
+    "default_icon": "icons/icon48.png",
+    "open_at_install": false
+  },
+  "browser_action": {
+    "default_title": "Open Snappy"
+  },
+  "background": {
+    "scripts": [
+      "shared.js",
+      "background.js"
+    ]
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
